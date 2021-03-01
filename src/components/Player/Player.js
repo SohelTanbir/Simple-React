@@ -22,7 +22,7 @@ const Player = ()=>{
             <div className="player-container">
                 <div className="players">
                    {
-                    playersData.map(players => <InfoCard playersinfo={players} addPlayer={addPlayer}/>)
+                    playersData.map(players => <InfoCard playersinfo={players} addPlayer={addPlayer} key={players.id}/>)
                    }
                 </div>
                 <div className="addPlayer">

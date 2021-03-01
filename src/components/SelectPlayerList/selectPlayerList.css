@@ -1,7 +1,10 @@
-.selectPlayerList ul{
-    margin-left:15px;
-}
 .selectPlayerList ul li{
     font-size:18px;
-    font-family:'Lucida Sans', sans-serif;
+    font-family:cursive, sans-serif;
+    background:rgb(240, 239, 239);
+    margin-bottom: 10px;
+    padding:8px 30px;
+    list-style:none;
+    border-radius:5px;
+    text-align: center;
 }

@@ -3,11 +3,10 @@ import './selectPlayerList.css'
 const SelectPlayerList = (props) => {
     return (
         <div className="selectPlayerList">
-            <ol>
+            <ul>
                 {props.playerNameArray.map(name => <li>{name}</li>)}
-            </ol>
+            </ul>
         </div>
     );
 };
-
 export default SelectPlayerList;

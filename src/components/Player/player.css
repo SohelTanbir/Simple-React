@@ -26,15 +26,6 @@
     font-weight:400;
     font-family:cursive;
 }
-.fixed{
-    flex-basis: 30%;
-    padding: 10px;
-    position: fixed;
-    height: 100vh;
-    background: blue;
-    left: 70%;
-    top: 10px;
-}
 .selectInfo{
     border-radius:10px;
     box-shadow:0 0 20px rgb(216, 214, 214);

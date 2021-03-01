@@ -2,7 +2,6 @@ import React from 'react';
 import './infocard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faUserPlus } from '@fortawesome/free-solid-svg-icons'
-
 const InfoCard = (props) => {
     const {name,img,age,role,height,team,salary} = props.playersinfo;
     const addPlayer = props.addPlayer;

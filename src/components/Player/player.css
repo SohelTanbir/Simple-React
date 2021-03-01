@@ -3,9 +3,10 @@
     text-align: center;
     font-weight:400;
     color:rgb(20, 212, 212);
+    font-family:cursive;
 }
 .player-container{
-    padding:0px 50px;
+    padding:0px 40px;
     display:flex;
     justify-content:space-between;
     border-top:1px solid rgb(224, 221, 221) ;
@@ -19,4 +20,30 @@
 .addPlayer{
     flex-basis:30%;
     padding:10px;
+}
+.addPlayer h4{
+    text-align:center;
+    font-weight:400;
+    font-family:cursive;
+}
+.fixed{
+    flex-basis: 30%;
+    padding: 10px;
+    position: fixed;
+    height: 100vh;
+    background: blue;
+    left: 70%;
+    top: 10px;
+}
+.selectInfo{
+    border-radius:10px;
+    box-shadow:0 0 20px rgb(216, 214, 214);
+    margin-left:30px;
+    background: cornflowerblue;
+    padding:20px;
+    padding-left: 60px;
+    color:rgb(241, 236, 236);
+}
+.selectPlayerName{
+    margin-top: 30px;
 }
